@@ -1,0 +1,176 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    line-height: 21px;
+    width: 83px;
+    height: 21px;
+    margin-top: 48px;
+    margin-right: 44px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+header {
+    margin-left: 50px;
+    margin-top: 48px;
+
+
+}
+
+.Signup {
+    width: 124px;
+    height: 51px;
+    color: #ffffff;
+    background: #6FBF44;
+    border-radius: 6px;
+    cursor: pointer;
+    border: #4CB538 1px solid;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+
+img {
+    margin-top: 177px;
+    margin-left: 121px;
+    margin-right: 85px;
+
+
+}
+
+section {
+
+    display: inline-block;
+
+
+}
+
+p {
+    width: 493px;
+    margin-bottom: 55px;
+    color: #4B505A;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 62px;
+    color: #161A49;
+    width: 582px;
+    margin-bottom: 47px;
+}
+
+
+.more {
+
+    color: #6FBF44;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+main {
+
+    display: inline-block;
+
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    header {
+        display: block;
+        margin-left: 20px;
+        margin-top: 0px;
+        width: auto;
+
+        visibility: hidden;
+
+    }
+
+    .Signup {
+        visibility: visible;
+        display: block;
+        margin: 0px 30% 20px 70%;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+
+    }
+
+    h1 {
+        display: block;
+        margin: 40px 70px 30px 70px;
+        text-align: center;
+        width: auto;
+        font-size: 30px;
+    }
+
+    p {
+        display: block;
+        margin: 0px auto;
+        width: auto;
+        text-align: center;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .more {
+        display: block;
+        font-size: 18px;
+        margin: 26px 45% 59px 40%;
+        width: 150px;
+    }
+
+    section {
+        display: block;
+        position: relative;
+        bottom: 400px;
+        width: auto;
+
+    }
+
+    img {
+        display: block;
+        position: relative;
+        top: 470px;
+        width: 80%;
+        margin: 0px auto 0px auto;
+    }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+
+
+
+
+    section {
+        display: block;
+        position: relative;
+        top: -300px;
+        width: auto;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:411px) {
+    .Signup {
+
+        position: relative;
+        bottom: 25px;
+        right: 10px;
+    }
+}
